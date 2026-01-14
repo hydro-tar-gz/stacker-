@@ -2,7 +2,7 @@
 ### *“Your server setup shouldn’t feel like dark magic.”*
 
 Stacker Suite is an ambitious little toolbox that aims to take all the annoying, repetitive, error-prone parts of deploying a website on a Linux server…  
-and blows it up to piexes
+and blows it up to pieces
 
 No more sacrificing goats to appease Nginx.  
 No more “why does Node version 16 break everything?”  
@@ -89,9 +89,12 @@ stacker update apply  # Apply safe updates only
 stacker auth github   # Connect GitHub for PR checks
 stacker web           # Open the dashboard
 stacker doctor        # Diagnose Everything™
+```
 
+# why does this exist?
 
-
-## why does this exist?
-
-I hate setting up servers.
+- i hate setting up servers
+- nginx f**king sucks to set up
+- pm2 is cool but its better automated
+- nodejs is also a pain to set up
+- this is just a cool idea.
